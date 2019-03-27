@@ -19,7 +19,7 @@ Then edit the `app.json` file in it to configure for your node:
 - alter the value to the right of `INSTANCE_NAME` to whatever you wish to name your node;
 - alter the value to the right of `CONTACT_DETAILS` if you wish to share your contact details
 - alter the value to the right of `RPC_PORT` to the rpc port for your node (by default 8545 for both cpp and go);
-- and alter the value to the right of `WS_SECRET` to the secret (beepboopstats).
+- and alter the value to the right of `WS_SECRET` to the secret (**beepboopstats**).
 
 ethereum (eth or geth) must be running with rpc enabled.
 ```
