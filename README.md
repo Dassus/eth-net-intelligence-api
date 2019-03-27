@@ -1,4 +1,4 @@
-### Ethereum Network Intelligence API
+## Ethereum Network Intelligence API
 
 ### Listing
 
