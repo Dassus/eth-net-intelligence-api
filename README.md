@@ -1,6 +1,6 @@
 ### Ethereum Network Intelligence API
 
-## Listing
+### Listing
 
 To list your node, you must install the client-side information relay, a node module. Instructions given here work on Ubuntu (Mac OS X follow same instructions, but sudo may be unnecessary). Other platforms vary (please make sure that nodejs-legacy is also installed, otherwise some modules might fail). 
 
@@ -41,21 +41,6 @@ Several commands are available:
 - `pm2 stop node-app` to stop the app;
 - `pm2 kill` to kill the daemon.
    
-### Updating
-In order to update you have to do the following:
-- `git pull` to pull the latest version
-- `sudo npm update` to update the dependencies
-- `pm2 gracefulReload node-app` to reload the client   
-   
-   
-***   
-
-## Auto-installation on a fresh Ubuntu install
-Fetch and run the build shell. This will install everything you need: latest ethereum - CLI from develop branch (you can choose between eth or geth), node.js, npm & pm2.
-
-```bash
-bash <(curl https://raw.githubusercontent.com/cubedro/eth-net-intelligence-api/master/bin/build.sh)
-```
 
 ### Configuration
 Configure the app modifying [app.json](https://github.com/cubedro/eth-net-intelligence-api/blob/master/app.json.example). Note that you have to modify the backup `app.json` (to allow you to set your env vars without being rewritten when updating).
@@ -89,12 +74,3 @@ ethereum (eth or geth) must be running with rpc enabled.
 geth --rpc
 ```
 the default port (if one is not specified) for rpc under geth is 8545
-
-### Updating
-To update the API client use the following command:
-
-```bash
-~/bin/www/bin/update.sh
-```
-
-It will stop the current netstats client processes, automatically detect your ethereum implementation and version, update it to the latest develop build, update netstats client and reload the processes.
