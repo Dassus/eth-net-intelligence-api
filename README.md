@@ -7,7 +7,7 @@ To list your node, you must install the client-side information relay, a node mo
 Clone the git repo, then install pm2:
 
 ```
-git clone https://github.com/cubedro/eth-net-intelligence-api
+git clone https://github.com/solidum-network/eth-net-intelligence-api
 cd eth-net-intelligence-api
 npm install
 sudo npm install -g pm2
