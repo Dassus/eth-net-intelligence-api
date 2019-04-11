@@ -16,7 +16,7 @@
       "LISTENING_PORT"  : "30303",
       "INSTANCE_NAME"   : "",
       "CONTACT_DETAILS" : "",
-      "WS_SERVER"       : "https://stats.solidum.network/",
+      "WS_SERVER"       : "https://stats.solidum.network",
       "WS_SECRET"       : "beepboopstats",
       "VERBOSITY"       : 2
     }
