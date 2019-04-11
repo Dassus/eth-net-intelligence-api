@@ -54,7 +54,7 @@ Configure the app modifying [app.json](https://github.com/cubedro/eth-net-intell
 		"LISTENING_PORT"  : "30303", // eth listening port (only used for display)
 		"INSTANCE_NAME"   : "", // whatever you wish to name your node
 		"CONTACT_DETAILS" : "", // add your contact details here if you wish (email/skype)
-		"WS_SERVER"       : "https://stats.solidum.network/", // path to eth-netstats WebSockets api server
+		"WS_SERVER"       : "https://stats.solidum.network", // path to eth-netstats WebSockets api server
 		"WS_SECRET"       : "beepboopstats", // WebSockets api server secret used for login
 	}
 ```
